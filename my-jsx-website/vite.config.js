@@ -6,5 +6,5 @@ const repoName = 'Finance-tracker-prototype';
 
 export default defineConfig({
   plugins: [react()],
-  base: `/${repoName}/`, // This is CRUCIAL for GitHub Pages
+// base: './', // <--- MUST BE EXACTLY THIS
 })
