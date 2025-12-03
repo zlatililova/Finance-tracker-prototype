@@ -753,3 +753,16 @@ export default function BudgetAIApp() {
     </div>
   );
 }
+
+// ******************************************************
+// *** ADD THIS BLOCK DIRECTLY BELOW BudgetAIApp() ***
+// ******************************************************
+
+import ReactDOM from 'react-dom/client'
+
+// This block renders the component defined above into the HTML page.
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BudgetAIApp />
+  </React.StrictMode>,
+);
