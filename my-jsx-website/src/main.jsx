@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ReactDOM from 'react-dom/client';
 import { 
   Home, 
   MessageSquare, 
@@ -757,8 +758,6 @@ export default function BudgetAIApp() {
 // ******************************************************
 // *** ADD THIS BLOCK DIRECTLY BELOW BudgetAIApp() ***
 // ******************************************************
-
-import ReactDOM from 'react-dom/client'
 
 // This block renders the component defined above into the HTML page.
 ReactDOM.createRoot(document.getElementById('root')).render(
