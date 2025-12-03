@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css'; // <-- Add this line (or whatever your main CSS file is called)
 import { 
   Home, 
   MessageSquare, 
